@@ -1,7 +1,5 @@
 plugins {
     id 'java'
-    id 'maven-publish'
-    id 'signing'
 }
 
 group 'com.niu7'
@@ -23,6 +21,8 @@ dependencies {
 }
 
 jar.enabled=true
+apply plugin: 'maven-publish'
+apply plugin: 'signing'
 group 'com.niu7'
 version '0.0.1'
 
