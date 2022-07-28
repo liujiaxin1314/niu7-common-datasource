@@ -41,7 +41,7 @@ sourceSets.main.resources.srcDirs = ["src/main/java","src/main/resources"]
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            groupId="com.niu7"
+            groupId="io.github.liujiaxin1314"
             artifactId="niu7-common-datasource"
             version="0.0.1"
             //若是war包，就写components.web,若是jar包，就写components.java
